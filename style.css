@@ -1,0 +1,528 @@
+html
+{
+ scroll-behavior: smooth;
+}
+
+
+header{
+	background:url(../images/background/bg_1.jpg) no-repeat;
+	background-size: 100% 100%;
+	height:100vh;
+	
+}
+
+
+header p
+{
+	font-size:5rem;
+	font-weight:400;
+	color:white;
+	 font-family: 'Ubuntu', sans-serif;
+	 padding-top:250px;
+}
+
+header .btn{
+	/*margin-top:100px;*/
+	color:white;
+	font-size:1.2rem;
+	width:140px;
+	border-radius:30px;
+	border:1px solid #fff;
+	margin-top:80px;
+}
+
+
+header .btn:hover{
+	border:2px solid #F3647A !important;
+	color:white;
+}
+
+nav
+{
+ height:60px;
+ background-color: #F3647A;
+}
+
+nav .fas
+{
+ color:white;
+ font-size:30px;
+}
+
+nav ul li a:Hover
+{
+ color:white !important;
+}
+nav .navbar-brand
+{
+font-size:40px;
+font-family: 'Pinyon Script', cursive;
+margin:2px  0px 0px 10px; 
+}
+
+
+.s3  .carousel-item
+		{
+			height:60vh;
+		}
+
+
+.s1 .heading h1,.s2 .heading h1,.s3 .heading h1,.s4 .heading h1,.s5 .heading h1
+{
+	font-size:50px;
+	font-weight: 600;
+	line-height: 4rem;
+    font-family: 'Pinyon Script', cursive;
+   
+}
+
+
+
+.s1 .heading .btn:hover,.s6 .btn:hover,.s5 form .row .btn:hover,.s2 .menu1 .Spe a:hover
+{
+ color:white;
+ border:1px solid #F3647A;
+ background: none !important;
+}
+
+.s2 .menu1 .Spe a
+{
+	margin:15px 0px 30px 0px;
+}
+
+
+.s1 .heading .btn:hover,.s5 form .row .btn:hover,.s2 .menu1 .Spe a:hover
+{
+	color: black;
+}
+.s1 .heading p
+{
+ width:90%;
+ font-size: 1.2rem;
+  
+}
+
+
+.s3 .carousel .carousel-inner .carousel-caption p  
+{
+ width:50%;
+}
+
+
+
+.s2 .menu a
+{
+	font-size: 20px;
+}
+
+.s2 .menu a:hover
+{
+	color:#F3647A;
+}
+	
+.s4 p,.s2 .heading p ,.s2 .heading p,.s3 .heading p,.s4 .heading p,.s5 .heading p
+{
+	width:60%;
+	margin:10px auto;
+   font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing:.1rem;
+    color:gray; 
+}
+
+.s2 .heading p
+{
+	color:black;
+}
+.s2 .menu1 .Spe h1
+{
+ 	 font-size:28px;
+ 	 line-height:1.8em;
+ 	 font-family: 'Ubuntu', sans-serif;
+	 
+}
+
+.s2 .menu1 .Spe p
+{
+	width:78%;
+ 	 font-size:16px;
+ 	  line-height:1.8em;
+ 	 text-align: center;
+ 	 margin:0px auto;
+ 	 //margin-bottom:30px;
+ 	 font-family: 'Ubuntu', sans-serif;
+}
+
+.s2 .menu1 .Spe img
+{
+ height:120px;
+ width:120px;
+ border-radius: 150px;
+ -webkit-background-size:cover;
+  background-size:cover;
+}
+
+.s3  .carousel-item
+		{
+			height:50vh;
+		}
+
+.s3
+{
+	background:url("../images/background/wine-5.jpg") no-repeat;
+	 background-size:cover;
+	 background-attachment: fixed;
+
+}
+.s3  .carousel-inner .carousel-item img
+{
+	width: 150px;
+	height:150px;
+	margin:auto;
+	border-radius: 150px;
+	overflow: hidden;
+}
+
+.s3  .carousel-inner .carousel-item .carousel-caption
+{
+ position:static;
+ padding-bottom:10px;
+ padding-top: 0;
+ color:black;
+}
+
+.s3  .carousel
+{
+	margin-top:140px;
+}
+
+.s3  .carousel-inner .carousel-caption p
+{
+ font-size:20px;
+ color:white;
+ width:60%;
+ margin:0px auto;
+}
+
+.s3 .carousel .carousel-indicators
+{
+	bottom:-40px;
+}
+
+.s4 img 
+{
+ width:200px;
+ height:200px;
+} 
+
+.s4 h1 ,.s6 h1
+{
+	font-size: 18px;
+	line-height:1.3em;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.s4 h1 
+{
+font-size:25px; 
+}
+
+.s4 p
+{
+font-size:16px;
+}
+
+.s5 form .row div
+{
+color:black;
+font-weight: 600;
+}
+
+.s5 form .row select,.s5 form .row input[type=text]
+{
+width:81%;
+height:30px;
+}
+
+.s5 form .row select:hover,.s5 form .row input[type=text]:hover
+{
+ border:1px solid #F3647A;
+}
+
+.s5 form .row .btn
+{
+ margin:25px 0px 0px 15px;
+}
+
+footer
+{
+	background: black;
+}
+
+footer  a:hover
+{
+	color: #F3647A;
+}
+
+footer .row
+{
+	top:20px;
+}
+.s6 h1
+{
+	font-size:17px;
+	color:white;
+}
+
+footer .fab,.s4 .fab
+{
+	font-size:24px; 
+	padding:5px;
+	transition:1s; 
+}
+
+footer .fab:hover,.s4 .fab:hover
+{
+ color:#F3647A;
+}	
+
+.s6 a
+{
+	text-decoration: none !important;
+	color:grey;
+}
+
+
+
+
+
+@media (min-width:320px) and (max-width:480px)
+{
+
+   header p
+	{
+		font-size:2rem;
+		margin:-30px 0px 0px 0px;
+	}
+
+	header
+	{
+	height:80vh;
+    }
+
+
+    .s3  .carousel-item
+		{
+			height:60vh;
+		}
+
+	nav .fas
+	{
+	 font-size:16px;
+	}
+	
+
+	.s1 .heading p
+	{
+	 width:94%;
+	 font-size:1.1rem; 
+	 text-align: justify; 
+	}
+
+
+   .s4 p,.s2 .heading p ,.s2 .heading p,.s3 .heading p,.s4 .heading p,.s5 .heading p
+		{
+			width:99%;
+		}
+
+    .s2 .menu a
+    {
+    	width:90%;
+    	margin: 2px 0px 5px 0px;
+    }		
+
+    .s2 .menu1 .Spe 
+		{
+		
+		margin:0px 0px 45px 0px;	 
+		}
+
+	.s2 .menu1 .Spe p
+		{
+			width:95%;
+		}
+
+    .s3  .carousel-inner .carousel-item img
+	{
+		width:100px;
+		height:100px;
+	}	
+
+	.s3  .carousel-inner .carousel-caption p
+		{
+		 font-size:16px;
+		 width:70%;
+		 
+		}
+
+    .s4 .chef1
+    {
+    	margin:40px 0px 0px 0px;
+    }		
+
+  
+
+   .s5 form .row select,.s5 form .row input[type=text]
+		{
+		width:100%;
+		height:30px;
+		}
+
+   footer .row
+   {
+   	margin:0px auto;
+   	text-align: center;
+   }
+
+   footer .row .f1
+   {
+   	margin:40px 0px 0px 0px;
+   }
+
+   footer .row .f1 h1
+   {
+   	font-size:20px;
+   }
+
+   footer .row .rest
+   {
+   	font-size:17px;
+   	text-align:justify;
+   }
+
+
+  footer .row .rest a
+   {
+    transform:translate(80px,0px); 
+   }
+
+   nav .navbar-brand
+		{
+		font-size:25px;
+		font-family: 'Pinyon Script', cursive;
+		;
+		transform: translate(-40px,0px); 
+	}
+}
+
+
+
+@media (min-width:481px) and (max-width:786px)
+{
+
+     header p
+	{
+		font-size:3rem;
+		margin:-30px 0px 0px 0px;
+	}
+
+	nav .fas
+	{
+	 font-size:20px;
+	}
+	
+
+	.s1 .heading p
+	{
+	 width:94%;
+	 font-size:1.1rem; 
+	 text-align: justify; 
+	}
+
+
+   .s4 p,.s2 .heading p ,.s2 .heading p,.s3 .heading p,.s4 .heading p,.s5 .heading p
+		{
+			width:99%;
+		}
+
+    .s2 .menu a
+    {
+    	width:90%;
+    	margin: 2px 0px 5px 0px;
+    }		
+
+    .s2 .menu1 .Spe 
+		{
+		
+		margin:0px 0px 45px 0px;	 
+		}
+
+	.s2 .menu1 .Spe p
+		{
+			width:80%;
+		}
+
+    .s3  .carousel-inner .carousel-item img
+	{
+		width:120px;
+		height:120px;
+	}	
+
+	.s3  .carousel-inner .carousel-caption p
+		{
+		 font-size:17px;
+		 width:70%;
+		 
+		}
+
+    .s4 .chef1
+    {
+    	margin:40px 0px 0px 0px;
+    }		
+
+   .s5 .form input[type=text]
+   {
+   	width:90%;
+   }
+
+   footer .row
+   {
+   	margin:0px auto;
+   	text-align: center;
+   }
+
+   footer .row h1
+   {
+   	text-align: center;
+   }
+
+   footer .row .f1
+   {
+   	margin:40px 0px 0px 0px;
+   }
+
+   footer .row .f1 h1
+   {
+   	font-size:20px;
+   }
+
+   footer .row .rest
+   {
+   	font-size:17px;
+   	text-align:justify;
+   }
+
+
+  footer .row .rest a
+   {
+    transform:translate(160px,0px); 
+   }
+
+   nav .navbar-brand
+		{
+		font-size:30px;
+		font-family: 'Pinyon Script', cursive;
+		;
+		transform: translate(-98px,0px); 
+	}
+}
